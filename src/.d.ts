@@ -1,7 +1,7 @@
 /**
  * TypeScript declaration file
  *
- * Used to help TS find where the image imports are
+ * Used to help Ts find where the image imports are
  */
 
 declare module "*.png" {

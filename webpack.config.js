@@ -24,8 +24,8 @@ module.exports = {
                 ]
             },
             {
-                // handles image assets including svg
-                test: /\.(png|jpe?g|gif|svg)$/i,
+                // handles image assets
+                test: /\.(png|jpe?g|gif|svg|ico)$/i,
                 type: "asset/resource",
                 generator: {
                     filename: "static/[hash][ext][query]"
@@ -54,7 +54,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: "./src/index.html"
+            template: "./public/index.html"
         })
     ],
     devServer: {

@@ -86,7 +86,7 @@ const config = {
         "simple-import-sort/imports": "warn",
 
         // JSDoc rules
-        "jsdoc/check-tag-names": ["error", { typed: true, definedTags: ["jest-environment"] }],
+        "jsdoc/check-tag-names": ["error", { typed: true }],
         "jsdoc/no-defaults": "off",
         "jsdoc/require-jsdoc": "off",
         "jsdoc/require-param": "off",

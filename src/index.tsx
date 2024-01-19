@@ -4,17 +4,18 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { Home } from "./home";
 
-export const App: React.FC = () => {
-    return (
+const App: React.FC = () => (
+    <React.StrictMode>
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
             </Routes>
         </BrowserRouter>
-    );
-};
+    </React.StrictMode>
+);
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById("root") as HTMLElement | null;
+
 if (rootElement) {
     const root = createRoot(rootElement);
     root.render(<App />);

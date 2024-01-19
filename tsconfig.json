@@ -15,8 +15,8 @@
     "moduleResolution": "node",
     /*
       might want to change below to true
-      - prevents us from compiling with eslint errors
-      - but also forces us to follow the standards
+      - prevents compiling with ESlint errors
+      - but also forces to follow ESlint rules
     */
     "noEmit": false,
     "noImplicitAny": true,
