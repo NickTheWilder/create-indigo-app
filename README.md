@@ -30,6 +30,8 @@ Builds the app for production to the `build` folder.
 
 ## Folder Structure
 
+- `/public`: - Contains the static assets for the app.
+   -  useful for images, and icons that can be accessed publicly.
 - `/src`: Source files for your React app.
 
 ## Customizing Configuration
