@@ -4,8 +4,6 @@
     "dbaeumer.vscode-eslint",
     "hex-ci.stylelint-plus",
     "streetsidesoftware.code-spell-checker",
-    "clinyong.vscode-css-modules",
-    /** totally a joke, but a cool plugin below*/
-    "tonybaloney.vscode-pets"
+    "tonybaloney.vscode-pets" // 🐈🐕
   ]
 }

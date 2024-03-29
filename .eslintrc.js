@@ -1,6 +1,5 @@
 /* eslint-env node */
 
-// client-side javascript rules
 const config = {
     env: { browser: true },
     extends: ["eslint:recommended", "plugin:jsdoc/recommended-error", "prettier"],
@@ -33,7 +32,6 @@ const config = {
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-require-imports": "error",
         "@typescript-eslint/no-unused-vars": "off",
-        "@typescript-eslint/no-use-before-define": "off",
         "@typescript-eslint/no-var-requires": "off",
         "@typescript-eslint/prefer-for-of": "warn",
         "@typescript-eslint/prefer-function-type": "warn",
@@ -52,8 +50,6 @@ const config = {
         "no-new-wrappers": "error",
         "no-restricted-globals": ["error", "$", "jQuery", "R"],
         "no-shadow": ["error", { hoist: "functions" }],
-        "no-shadow-restricted-names": "error",
-        "no-template-curly-in-string": "warn",
         "no-throw-literal": "error",
         "no-undef-init": "warn",
         "no-unused-expressions": "error",
@@ -95,7 +91,7 @@ const config = {
 
         // React and React Hooks rules
         "react/button-has-type": "error",
-        "react-hooks/exhaustive-deps": ["warn", { additionalHooks: "^use(Disposables|EventHandler|StreamResult|StreamSubscription)$" }],
+        "react-hooks/exhaustive-deps": ["warn"],
         "react-hooks/rules-of-hooks": "error",
         "react/no-access-state-in-setstate": "error",
         "react/no-did-mount-set-state": "error",
